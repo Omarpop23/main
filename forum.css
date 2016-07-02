@@ -1,3 +1,2416 @@
-#header {
-background: #0086b3;
+/* footer */
+#page-footer {
+  background: url("http://i84.servimg.com/u/f84/19/23/51/91/oouiu16.png") no-repeat scroll center center, url("http://i84.servimg.com/u/f84/19/23/51/91/oia_oo12.jpg") repeat-x scroll center;
+    height: 340px;
 }
+.bottom-footer {
+  text-align: center;
+clear: both;
+}
+.msahmat {
+  padding: 85px 54px;
+  float: left;
+  line-height: 25px;
+}
+.networking-footer {
+padding: 55px 65px;
+float: right;
+  line-height: 0px;
+  text-align: center;
+}
+/* end footer */
+
+
+/* ����� �������*/
+body{background-image:url('http://i84.servimg.com/u/f84/19/23/51/91/3d-abs10.jpg');
+filter:alpha(opacity=90); /* CSS3 standard */ opacity:0.9; 
+}
+
+
+.module-title, .catLeft .genmed{
+color:White !important;
+}
+
+.bodyline{
+background:#FFF url;
+border:0;
+padding:0;
+margin:0;
+}
+
+body{
+padding:0;
+margin:0;
+background-position:center;
+}
+
+a{
+text-decoration:none;
+}
+
+.forumline{
+  border:2px solid #c9cfc4;
+width:98%;
+margin: 10px;
+padding: 3px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: 0px 0px 10px #000;
+box-shadow: 0px 0px 6px #000;
+-webkit-box-shadow: 0px 0px 10px #000;
+-khtml-box-shadow: 0px 0px 10px #000;
+}
+
+
+
+.postdetails.poster-profile a img {
+margin: 7px;
+padding: 7px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 0px 0px 10px #000;
+box-shadow: 0px 0px 10px #000;
+-webkit-box-shadow: 0px 0px 10px #000;
+-khtml-box-shadow: 0px 0px 10px #000;
+max-width:140px;
+}
+
+
+ /*�������� �������  */
+.postdetails{
+background: url(http://i28.servimg.com/u/f28/15/58/63/34/233.png)repeat;
+background-repeat: repeat;
+display: block;
+overflow: auto;
+-moz-border-radius-bottomleft: 8px;
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-topright: 8px;
+}
+
+
+
+* html {
+}
+* + html {
+}
+p, td, th {
+    font-family: Tahoma;
+}
+a img {
+    border: medium none;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #FFFFFF;
+    border-right: 0 solid #FFFFFF;
+    border-style: solid;
+    border-width: 2px 0 0;
+    height: 0;
+}
+.bodyline {
+}
+.bodylinewidth {
+    width: 70%;
+}
+
+td.rowpic {
+    background-color: #FFFFFF;
+    background-image: url("http://hitskin.com/themes/18/81/78/i_back_catd.png");
+}
+th {
+    background-color: #FFFFFF;
+
+  
+    
+    font-size: 12px;
+    font-weight: 700;
+    height: 25px;
+    padding: 2px 3px;
+}
+
+td.cat, td.catBottom, td.catHead, td.catLeft, td.catRight, td.catSides {
+    background-color: #FFFFFF;
+
+  
+    border: medium solid #000000;
+}
+td.cat, td.catBottom, td.catHead {
+    border-width: 0;
+    height: 29px;
+}
+th.thBottom, th.thCornerL, th.thCornerR, th.thHead, th.thLeft, th.thRight, th.thSides, th.thTop {
+    border: medium solid #FFFFFF;
+    font-weight: 700;
+    height: 20px;
+}
+td.row3Right, td.spaceRow {
+    background-color: #FFFFFF;
+    border: medium solid #000000;
+}
+td.pourcentback {
+    background-color: #FFFFFF;
+}
+td.catHead, th.thHead {
+    border-width: 1px 1px 0;
+    font-size: 12px;
+}
+td.catSides, td.spaceRow, th.thSides {
+    border-width: 0 1px;
+}
+td.catRight, td.row3Right, th.thRight {
+    border-width: 0 1px 0 0;
+}
+td.catLeft, th.thLeft {
+    border-width: 0 0 0 1px;
+}
+td.catBottom, th.thBottom {
+    border-width: 0 1px 1px;
+}
+th.thTop {
+    border-width: 1px 0 0;
+}
+th.thCornerL {
+    border-width: 1px 0 0 1px;
+}
+th.thCornerR {
+    border-width: 1px 1px 0 0;
+}
+
+/* ��� ��� �������*/
+
+.maintitle, .maintitle h1 {
+    color: #4a4949;
+    font-family: Tahoma,Tahoma;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration: none;
+}
+.forumline .row1, .forumline .row2, .forumline .row3, .forumline .row3Right {
+    padding: 2px 3px;
+}
+
+.maintitle h1 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.gen {
+    font-size: 12px;
+}
+.genmed {
+    font-size: 12px;
+}
+.gensmall {
+    font-size: 12px;
+}
+
+
+
+.cattitle {
+  
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+h1.cattitle {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+a.cattitle:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.name a {
+    text-decoration: none;
+}
+.postdetails {
+    color: #6D6D6D;
+    font-size: 12px;
+}
+.postbody {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.code {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+  
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.mod-text {
+    font-weight: 700;
+}
+
+/* ��� ����� ����������*/
+.quote {
+    background-color: #f9f7b7;
+    border: 2px solid #000;
+    color: #000;
+    font-family: Tahoma;
+    font-size: 15px;
+    line-height: 150%;
+}
+.vote {
+    float: left;
+    margin-right: 4px;
+    width: 9px;
+}
+.vote .vote-button {
+    font-weight: 700;
+    margin-right: -1px;
+    text-align: center;
+}
+.vote .vote-button a {
+    text-decoration: none !important;
+}
+.vote .vote-bar {
+    border: 1px solid #6D6D6D;
+    font-size: 0;
+    height: 50px;
+    margin: 0 auto;
+    width: 3px;
+}
+.vote .vote-no-bar {
+    letter-spacing: -2px;
+    margin-right: -2px;
+    white-space: nowrap;
+}
+.vote .vote-bar-plus {
+    background-color: #00FF00;
+}
+.vote .vote-bar-minus {
+    background-color: red;
+}
+h1.pagetitle {
+  
+    display: inline;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+h1.title2 {
+    font-size: 12px;
+}
+
+.secondarytitle h2 {
+    display: inline;
+}
+.nav h1 {
+    display: inline;
+}
+.hierarchy {
+    border: medium none;
+    display: inline;
+    text-transform: none;
+}
+.coloradmin {
+    color: #FFA34F;
+}
+.colormod {
+    color: #006600;
+}
+img {
+    border: 0 none;
+}
+input, select, textarea {
+    border-color: #6D6D6D;
+    border-width: 1px;
+    
+    font-family: Tahoma;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+input.post, select, textarea.post {
+    background-color: #FFFFFF;
+}
+.post-options {
+    text-align: left;
+}
+.post-options img {
+    cursor: pointer;
+    vertical-align: middle;
+}
+input {
+    background-color: #FFFFFF;
+    text-indent: 2px;
+}
+input.button {
+    background-color: #FFFFFF;
+    border-width: 1px;
+  
+    font-family: Tahoma;
+    font-size: 12px;
+}
+input.mainoption {
+    background-color: #FFFFFF;
+    font-weight: 700;
+}
+input.liteoption {
+    background-color: #FFFFFF;
+    font-weight: 400;
+}
+.helpline {
+    background-color: #FFFFFF;
+    border-style: none;
+}
+button.button2, input.button2 {
+    background-color: #FAFAFA;
+    background-image: url("http://illiweb.com/fa/prosilver/bg_button.gif");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border: 1px solid #BCBCBC;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 0.7em;
+    overflow: visible;
+    padding: 1px 0;
+    vertical-align: middle;
+    width: auto !important;
+}
+button.button2:hover, input.button2:hover {
+    background-position: 0 100%;
+    border: 1px solid #6D6D6D;
+    color: #6D6D6D;
+}
+* html button.button2, * html input.button2 {
+    height: 24px;
+    margin-bottom: 1px;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+* + html button.button2, * + html input.button2 {
+    height: 24px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+* + html button.button2 img {
+    vertical-align: middle;
+}
+* html button.button2 img {
+    vertical-align: middle;
+}
+button.bbcode {
+    background-image: url("http://illiweb.com/fa/wysiwyg/bg_button.png");
+    border: 1px solid #E3ADAD;
+}
+
+.select {
+    background-color: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 100;
+}
+.select p {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 4px 6px;
+    text-align: left;
+    white-space: nowrap;
+}
+.select button {
+    background-color: #FFFFFF;
+    border: medium none;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 4px;
+    text-align: left;
+}
+.select button.button2 {
+    border: 1px solid #BCBCBC;
+    padding: 0;
+}
+* html .select button.button2 {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.select button.button2:hover {
+    background-position: 0 100%;
+    border: 1px solid #6D6D6D;
+    color: #6D6D6D;
+}
+.select button:hover, .selectHover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+textarea#text_editor_textarea {
+    width: 100% !important;
+}
+iframe#text_editor_iframe {
+    height: 200px;
+    width: 100%;
+}
+form#quick_reply textarea#text_editor_textarea {
+    height: 100%;
+    width: 100% !important;
+}
+form#quick_reply iframe#text_editor_iframe {
+    width: 100%;
+}
+* html form#quick_reply iframe#text_editor_iframe {
+    width: 600px;
+}
+* + html form#quick_reply iframe#text_editor_iframe {
+    width: 600px;
+}
+iframe#obj_servimg {
+    direction: ltr;
+    float: left;
+}
+ul.abuse {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    list-style: none outside none;
+}
+.rtl-spacer:before {
+    content: " ";
+    white-space: pre;
+}
+.rtl-spacer:after {
+    content: " ";
+    white-space: pre;
+}
+.warning {
+    color: #FF3333;
+}
+.captcha div.captcha-img {
+    float: left;
+    margin: 0 1em 0 0;
+}
+.captcha .inputbox {
+    margin-top: 0.5em;
+}
+.center {
+    text-align: center;
+}
+#content-container #left {
+    width: 0;
+}
+#content-container #right {
+    margin-right: 0;
+    width: 0;
+}
+#message_rows {
+}
+.module-title {
+    display: block;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
+#frame_chatbox {
+    border: medium none !important;
+}
+body.chatbox {
+    background-color: #FFFFFF;
+    background-image: none;
+    direction: rtl;
+}
+#chatbox_header .cattitle {
+    font-size: 18px;
+}
+#chatbox_header .chatbox-options {
+    text-align: left;
+}
+
+#chatbox_members {
+    border-left: 1px solid;
+    bottom: 30px;
+    overflow: auto;
+    position: absolute;
+    top: 30px;
+    width: 180px;
+}
+#chatbox_members .member-title {
+    background-color: #FFFFFF;
+    background-image: none;
+    color: #6D6D6D;
+    font-family: Tahoma;
+    font-size: 12px;
+    padding: 0.5em 0.25em;
+    text-align: center;
+}
+#chatbox {
+    bottom: 30px;
+    left: 0;
+    line-height: 10px;
+    overflow: auto;
+    padding-bottom: 1em;
+    position: absolute;
+    right: 181px;
+    top: 30px;
+}
+* + html #chatbox {
+}
+.chatbox_row_1, .chatbox_row_2, .chatbox_row_3 {
+    font-size: 14px;
+    padding: 6px !important;
+}
+#chatbox .date-and-time, #chatbox .user, #chatbox .user-msg {
+    font-size: 13px;
+}
+#chatbox .user-msg {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+#chatbox .user {
+    direction: rtl;
+    unicode-bidi: normal !important;
+}
+#chatbox .msg {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+#chatbox_footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+#chatbox_footer table.text-styles {
+    float: left;
+}
+#chatbox_footer .text-field {
+    float: right;
+    margin-right: 140px;
+}
+#chatbox_messenger {
+    margin: -5px;
+}
+div#chatbox {
+    color: #6D6D6D;
+}
+#chatbox_contextmenu {
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+}
+#chatbox_contextmenu p {
+    border-bottom: 1px solid #777777;
+    font-family: verdana,arial,sans-serif;
+    margin: 0;
+    padding: 1px 4px;
+}
+#chatbox_contextmenu p.hover {
+}
+#chatbox_contextmenu p.close {
+    background: url("") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 70%;
+    padding: 1px;
+}
+#chatbox_contextmenu p.close img {
+    vertical-align: middle;
+}
+#chatbox_contextmenu a {
+    font-size: 70%;
+    text-decoration: none;
+}
+#chatbox_contextmenu a:hover {
+}
+.fontbutton {
+    border: 0 none;
+}
+* html #chatbox-members {
+}
+* html #chatbox {
+}
+* html #chatbox_footer {
+}
+.poll-result td {
+    padding: 2px 4px;
+}
+.poll-result td.poll-results, .poll-result td.poll-title {
+    text-align: center;
+}
+.progress-bar td {
+    padding: 0 !important;
+}
+.poll-ballot {
+    text-align: right;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+* + html .clearfix {
+    min-height: 1px;
+    text-align: right;
+}
+* html .clearfix {
+    clear: both;
+    height: 1%;
+    position: relative;
+}
+#profile-advanced-avatar .module, #profile-advanced-details, #profile-advanced-points .module, #profile-advanced-reputation .module {
+    margin-left: 3px;
+}
+#profile-advanced-avatar .module, #profile-advanced-points .module, #profile-advanced-reputation .module, #profile-advanced-right .module {
+    margin-bottom: 3px;
+}
+#profile-advanced-button {
+    padding: 1px;
+}
+#profile-advanced-details {
+    overflow: hidden;
+}
+#profile-advanced-details ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#profile-advanced-details ol li {
+    display: block;
+    margin-bottom: 4px;
+}
+#profile-advanced-details .avatar {
+    float: right;
+}
+
+
+.avatar {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 50px;
+}
+.avatar img {
+    width: 50px;
+}
+.friend-block .avatar {
+    cursor: pointer;
+    margin: 0 auto;
+}
+.avatar.mini, .avatar.mini img {
+    height: 38px;
+    width: 38px;
+}
+.friend-block {
+    float: right;
+    margin: 1px;
+    overflow: hidden;
+    text-align: center;
+    width: 70px;
+}
+.friend_list_online_status {
+    font-size: 0.9em;
+    line-height: 11px;
+}
+.friend_list_online_status img {
+    vertical-align: middle;
+}
+.friends-foes-list {
+    float: right;
+    height: 2em;
+    width: 200px;
+}
+#profile-advanced-details .message-block {
+    margin-right: 57px;
+}
+#profile-advanced-details .message-header {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 4px;
+    padding: 4px;
+}
+#profile-advanced-details .message-date {
+    float: left;
+}
+#profile-advanced-details .message-body {
+    margin-bottom: 4px;
+}
+#profile-advanced-details .message-footer {
+    text-align: left;
+}
+#profile-advanced-details .message-footer li {
+    display: inline;
+    margin: 0 0.25em;
+}
+#profile-advanced-details .message-footer li:after {
+    content: " .";
+}
+#profile-advanced-details .message-footer li a {
+    margin-left: 0.25em;
+    text-decoration: underline;
+}
+#profile-advanced-details .message-footer li.last:after {
+    content: normal;
+}
+#profile-advanced-add {
+    margin-left: 4px;
+    padding: 8px 0;
+    text-align: left;
+}
+#profile-advanced-details .stats-field {
+    margin: 4px 0 10px 4px;
+    padding: 0 10px 6px;
+}
+#profile-advanced-details .stats-field legend {
+    font-weight: 700;
+}
+#profile-advanced-details .stats-field ul {
+    list-style-type: none;
+    padding: 0;
+    text-indent: 10px;
+}
+#profile-advanced-details .stats-field li {
+    margin: 4px 0;
+}
+#login_popup {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+#login_popup_buttons {
+    bottom: 6px;
+    height: 19px;
+    left: 6px;
+    position: absolute;
+}
+#login_popup_buttons input {
+    margin-right: 6px;
+}
+ul.profile_field_list {
+    margin: 0;
+    padding: 0;
+}
+html ul.profile_field_list li {
+    list-style-type: none;
+}
+ul.profile_field_list > li {
+    list-style-type: none;
+}
+.inputURL {
+    font-family: "Courier New","Times New roman";
+    font-size: 10px;
+    letter-spacing: -1px;
+}
+.middleline {
+    line-height: 2em;
+}
+.invisible {
+    display: none;
+    visibility: hidden;
+}
+.visible {
+    display: block;
+    visibility: visible;
+}
+.clear {
+    clear: both;
+}
+.ajax-profil_hover {
+    background: none repeat scroll 0 0 transparent;
+}
+.ajax-profil_parent {
+    position: relative;
+}
+.ajax-profil_edit {
+    cursor: pointer;
+    position: absolute;
+    right: -18px;
+    top: 0;
+}
+.ajax-profil_edit img {
+    margin-right: 4px;
+}
+.ajax-profil_valid {
+    cursor: pointer;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+#profile-advanced-details dl {
+    margin: 10px 0 0;
+    padding: 8px 10px 8px 0;
+    width: 98%;
+}
+#profile-advanced-details dl dt {
+    display: block;
+    float: right;
+    width: 10em;
+}
+#profile-advanced-details dl dd {
+    margin-right: 10em;
+    padding-right: 12px;
+}
+#profile-advanced-details div.separator {
+    border-bottom: 1px solid #DCDCDC;
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    padding-top: 10px;
+}
+#profile-advanced-details .ajax-profil_edit {
+    right: -4px;
+}
+.jqmWindow {
+    background-color: #FFFFFF;
+    display: none;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -125px;
+    position: fixed;
+    top: 50%;
+    width: 450px;
+}
+.jqmOverlay {
+    background-color: #000000;
+}
+.jqDrag {
+    cursor: move;
+}
+
+.blog_cal-border {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FFFFFF;
+    display: inline;
+    float: right;
+    font-size: 1.2em;
+    margin-right: 10px;
+    padding: 1px;
+}
+.blog_cal-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #6D6D6D;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Sans-Serif;
+    line-height: 1.4em;
+    padding: 1px;
+    text-align: center;
+    width: 2.9em;
+}
+.blog_cal-content span {
+    display: block;
+}
+.blog_cal-day {
+    font-size: 1.6em;
+    letter-spacing: 0.2em;
+    padding-left: 0.2em;
+}
+.blog_cal-month {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 0.7em;
+}
+.blog_cal-year {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.blog_title {
+    font-size: 18px;
+    padding-top: 5px;
+}
+.blog_title img {
+    vertical-align: middle;
+}
+.blog_title .topictitle {
+    font-size: 18px;
+}
+.blog_message {
+    font-size: 12px;
+    margin-top: 12px;
+}
+.blog_comments {
+    margin-bottom: 2px;
+    text-align: left;
+}
+.blog_comments img {
+    vertical-align: middle;
+}
+#blog_comments {
+    margin: 0 auto;
+    width: 90%;
+}
+#blog_comments .postbody {
+    width: 96%;
+}
+.blog_comment-avatar {
+    float: right;
+}
+.blog_comment-avatar img {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin: 5px 0 0 5px;
+    vertical-align: middle;
+    width: 38px;
+}
+#blog_comments table {
+    margin-bottom: 2px;
+}
+#blog_comments .h3 {
+    margin-right: 45px;
+    margin-top: 0;
+    min-height: 22px;
+    overflow: hidden;
+    padding: 0;
+}
+.blog_comment-title {
+    float: right;
+    margin-top: 7px;
+    min-height: 12px;
+}
+.blog_comment-title a {
+    text-decoration: none;
+}
+#blog_comments .profile-icons {
+    margin-bottom: 5px;
+}
+#bookmarks {
+    float: left;
+}
+#bookmarks a img {
+    background: url("http://illiweb.com/fa/social_bookmarking/social_bookmarking.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+#bookmarks a img.twitter {
+    background: url("http://illiweb.com/fa/social_bookmarking/twitter.png") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    margin: 2px;
+    width: 16px;
+}
+#bookmarks img.delicious {
+    background-position: -10px -10px;
+}
+#bookmarks img.digg {
+    background-position: -10px -50px;
+}
+#bookmarks img.excite {
+    background-position: -9px -90px;
+}
+#bookmarks img.facebook {
+    background-position: -9px -128px;
+}
+#bookmarks img.furl {
+    background-position: -10px -166px;
+}
+#bookmarks img.google {
+    background-position: -10px -206px;
+}
+#bookmarks img.live {
+    background-position: -9px -246px;
+}
+#bookmarks img.netscape {
+    background-position: -9px -284px;
+}
+#bookmarks img.newsvine {
+    background-position: -9px -322px;
+}
+#bookmarks img.reddit {
+    background-position: -10px -360px;
+}
+#bookmarks img.slashdot {
+    background-position: -10px -400px;
+}
+#bookmarks img.smarking {
+    background-position: -9px -440px;
+}
+#bookmarks img.stumbleupon {
+    background-position: -10px -478px;
+}
+#bookmarks img.technorati {
+    background-position: -10px -518px;
+}
+#bookmarks img.yahoo {
+    background-position: -10px -558px;
+}
+.mceContentBody {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #6D6D6D;
+}
+.align_right {
+    text-align: left;
+}
+
+.resize_process .resizebox {
+    display: none;
+}
+.resize_process img.resize_img {
+    display: none;
+}
+.resizebox a.enlarge, .resizebox a.fullsize, .resizebox a.resize {
+    display: inline;
+}
+
+
+.resizebox.enlarged a.enlarge {
+    display: none;
+}
+.resizebox.enlarged a.resize {
+    display: inline-block;
+}
+.resizebox a.resize {
+    display: none;
+}
+.resizebox {
+    background-color: #FFFFFF;
+    cursor: default;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin: 0;
+    max-width: 100%;
+    text-align: right;
+}
+.resizebox div {
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+.resizebox .resize_border {
+    border: 1px solid #FFFFFF;
+    display: block;
+}
+.resizebox .resize_content {
+    display: inline;
+    padding: 5px 10px;
+}
+.resizebox .resize_filler {
+    border: medium none;
+    display: inline;
+    padding: 0;
+    width: 40px;
+}
+.attachbox {
+    background-color: #FFFFFF;
+    border: 1px dashed #C9D2D8;
+    clear: left;
+    color: #888888;
+    float: right;
+    margin: 5px 5px 5px 0;
+    padding: 6px;
+    width: auto;
+}
+.attachbox dt {
+    font-family: Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.attachbox dd {
+    border-top: 1px solid #D8D8D8;
+    clear: left;
+    font-size: 0.9em;
+    margin-left: 10px;
+    padding: 0;
+}
+dl.file {
+    display: block;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-bottom: 10px;
+}
+dl.file dt {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+dl.file dt img {
+    vertical-align: middle;
+}
+.info {
+    font-size: 10px;
+    font-style: italic;
+}
+.left {
+    float: right;
+}
+.spoiler_closed {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #444444;
+    display: block;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 125%;
+}
+.spoiler_closed.hidden {
+    display: none;
+}
+.spoiler_content {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #444444;
+    display: block;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 125%;
+}
+.spoiler_content.hidden {
+    display: none;
+}
+#cont_pwd {
+    float: right;
+    padding: 0 20px 0 0;
+}
+.pwd_img {
+    color: #000000;
+    display: none;
+    font-size: 11px;
+    font-weight: 700;
+    height: 14px;
+    line-height: 14px;
+    padding: 4px 0 3px;
+    text-align: center;
+    width: 150px;
+}
+#pwd_good {
+    background: url("http://illiweb.com/fa/p_strength/pwd_good.png") repeat scroll 0 0 transparent;
+}
+#pwd_middle {
+    background: url("http://illiweb.com/fa/p_strength/pwd_middle.png") repeat scroll 0 0 transparent;
+}
+#pwd_bad {
+    background: url("http://illiweb.com/fa/p_strength/pwd_bad.png") repeat scroll 0 0 transparent;
+}
+.ltr {
+    direction: ltr;
+}
+.fb_or {
+    background-color: #FFFFFF;
+    color: #444444;
+    display: block;
+    font-weight: 700;
+    height: 16px;
+    line-height: 16px;
+    padding: 5px;
+    width: 22px;
+}
+#fb_multi_friend_selector h2 {
+    background-color: red;
+    direction: rtl;
+}
+.align_gauche {
+    text-align: right;
+}
+.align_droite {
+    text-align: left;
+}
+.right {
+    float: left;
+}
+#cont_fb_invit iframe {
+    width: 760px !important;
+}
+td.code div {
+    direction: ltr;
+}
+.mod_bookmarks a img {
+    background: url("http://illiweb.com/fa/social_bookmarking/social_bookmarking_fa.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+.mod_bookmarks img.digg {
+    background-position: -10px -47px;
+}
+.mod_bookmarks img.delicious {
+    background-position: -10px -8px;
+}
+.mod_bookmarks img.reddit {
+    background-position: -10px -359px;
+}
+.mod_bookmarks img.slashdot {
+    background-position: -10px -398px;
+}
+.mod_bookmarks img.stumbleupon {
+    background-position: -10px -476px;
+}
+.mod_bookmarks img.furl {
+    background-position: -10px -163px;
+}
+.mod_bookmarks img.yahoo {
+    background-position: -10px -554px;
+}
+.mod_bookmarks img.google {
+    background-position: -10px -204px;
+}
+.mod_bookmarks img.blinklist {
+    background-position: -10px -665px;
+}
+.mod_bookmarks img.blogmarks {
+    background-position: -10px -630px;
+}
+.mod_bookmarks img.technorati {
+    background-position: -10px -516px;
+}
+.mod_rss_feeds a img {
+    background: url("http://illiweb.com/fa/rss_mod/sprite_rss_feeds.png") no-repeat scroll 0 0 transparent;
+    height: 17px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+    width: 91px;
+}
+.mod_rss_feeds img.yahoo {
+    background-position: 0 0;
+}
+.mod_rss_feeds img.google-reader {
+    background-position: -100px 0;
+}
+.mod_rss_feeds img.msn {
+    background-position: -199px 0;
+}
+.mod_rss_feeds img.aol {
+    background-position: -299px 0;
+}
+.mod_rss_feeds img.newsgator {
+    background-position: -399px 0;
+}
+.mod_rss_feeds img.rojo {
+    background-position: -498px 0;
+}
+.mod_rss_feeds img.bloglines {
+    background-position: -598px 0;
+}
+.sprite-arrow_prosilver_down {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll 0 0 transparent;
+    height: 6px;
+    width: 6px;
+}
+.sprite-arrow_prosilver_left {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -56px 0 transparent;
+    height: 6px;
+    width: 4px;
+}
+.sprite-arrow_prosilver_right {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -110px 0 transparent;
+    height: 6px;
+    width: 4px;
+}
+.sprite-arrow_prosilver_up {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -164px 0 transparent;
+    height: 6px;
+    width: 6px;
+}
+.sprite-arrow_subsilver_down {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -220px 0 transparent;
+    height: 9px;
+    width: 9px;
+}
+.sprite-arrow_subsilver_left {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -279px 0 transparent;
+    height: 9px;
+    width: 9px;
+}
+.sprite-arrow_subsilver_right {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -338px 0 transparent;
+    height: 9px;
+    width: 9px;
+}
+.sprite-arrow_subsilver_up {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -397px 0 transparent;
+    height: 9px;
+    width: 9px;
+}
+.sprite-icon_minipost {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -456px 0 transparent;
+    height: 9px;
+    width: 12px;
+}
+.sprite-icon_minipost_new {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -518px 0 transparent;
+    height: 9px;
+    width: 12px;
+}
+.sprite-icon_minipost_participate {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -580px 0 transparent;
+    height: 9px;
+    width: 12px;
+}
+.sprite-icon_miniposted {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -642px 0 transparent;
+    height: 9px;
+    width: 12px;
+}
+.sprite-icon_pages {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -704px 0 transparent;
+    height: 12px;
+    width: 11px;
+}
+.sprite-icon_post_target {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -765px 0 transparent;
+    height: 9px;
+    width: 11px;
+}
+.sprite-icon_post_target_unread {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -826px 0 transparent;
+    height: 9px;
+    width: 11px;
+}
+.sprite-icon_reply {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -887px 0 transparent;
+    height: 9px;
+    width: 18px;
+}
+.sprite-icon_reply_new {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -955px 0 transparent;
+    height: 9px;
+    width: 18px;
+}
+.sprite-icon_tiny_topic {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1023px 0 transparent;
+    height: 11px;
+    width: 10px;
+}
+.sprite-icon_topic_latest {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1083px 0 transparent;
+    height: 9px;
+    width: 11px;
+}
+.sprite-icon_topic_newest {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1144px 0 transparent;
+    height: 9px;
+    width: 11px;
+}
+.sprite-subforum_read {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1205px 0 transparent;
+    height: 9px;
+    width: 11px;
+}
+.sprite-subforum_unread {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1266px 0 transparent;
+    height: 9px;
+    width: 11px;
+}
+.sprite-tabs_less {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1327px 0 transparent;
+    height: 9px;
+    width: 9px;
+}
+.sprite-tabs_more {
+    background: url("http://illiweb.com/fa/sprite_icons.png") no-repeat scroll -1386px 0 transparent;
+    height: 9px;
+    width: 9px;
+}
+.sprite-icon_calendar {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 0 transparent;
+    height: 13px;
+    width: 14px;
+}
+.sprite-icon_faq {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -63px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_gallery {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -127px transparent;
+    height: 14px;
+    width: 14px;
+}
+.sprite-icon_groups {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -191px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_home {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -255px transparent;
+    height: 12px;
+    width: 13px;
+}
+.sprite-icon_logout {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -317px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_members {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -381px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_message {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -445px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_portal {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -509px transparent;
+    height: 14px;
+    width: 14px;
+}
+.sprite-icon_register {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -573px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_search {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -637px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_textbox_search {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -701px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_ucp {
+    background: url("http://illiweb.com/fa/sprite_prosilver_navbar.png") no-repeat scroll 0 -765px transparent;
+    height: 14px;
+    width: 16px;
+}
+.sprite-icon_mini_calendar {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll 0 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_faq {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -62px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_gallery {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -124px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_groups {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -186px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_index {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -248px 0 transparent;
+    height: 13px;
+    width: 13px;
+}
+.sprite-icon_mini_login {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -311px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_members {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -373px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_message {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -435px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_portal {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -497px 0 transparent;
+    height: 13px;
+    width: 13px;
+}
+.sprite-icon_mini_profile {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -560px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_register {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -622px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+.sprite-icon_mini_search {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -684px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+#search_menu a img {
+    background: url("http://illiweb.com/fa/sprite_subsilver_menu.png") no-repeat scroll -684px 0 transparent;
+    height: 13px;
+    width: 12px;
+}
+div.atclear {
+    clear: both;
+}
+.addthis_default_style .addthis_separator, .addthis_default_style .at300b, .addthis_default_style .at300bs, .addthis_default_style .at300m {
+    float: left;
+}
+.at300b img {
+    border: 0 none;
+}
+.addthis_default_style .at300b, .addthis_default_style .at300m {
+    padding: 0 2px;
+}
+.at300b, .at300bs, .at300m {
+    cursor: pointer;
+}
+.at300bs {
+    background: url("http://illiweb.com/fa/addthis/widget04.png") no-repeat scroll left center transparent;
+    display: block;
+    height: 16px;
+    line-height: 16px !important;
+    overflow: hidden;
+    width: 16px;
+}
+.at300bs.at15t_compact, .at300bs.at15t_expanded {
+    background: url("http://illiweb.com/fa/addthis/logo1414.gif") no-repeat scroll left center transparent;
+    margin-right: 4px;
+}
+.at15t_more {
+    background: url("http://illiweb.com/fa/addthis/logo1414.gif") no-repeat scroll left center transparent !important;
+}
+.at15t_000 {
+    background-position: 0 0;
+}
+.at15t_aim {
+    background-position: 0 -16px !important;
+}
+.at15t_amazonwishlist {
+    background-position: 0 -32px !important;
+}
+.at15t_ask {
+    background-position: 0 -48px !important;
+}
+.at15t_backflip {
+    background-position: 0 -64px !important;
+}
+.at15t_ballhype {
+    background-position: 0 -80px !important;
+}
+.at15t_bebo {
+    background-position: 0 -96px !important;
+}
+.at15t_blogger {
+    background-position: 0 -112px !important;
+}
+.at15t_blogmarks {
+    background-position: 0 -128px !important;
+}
+.at15t_buzz {
+    background-position: 0 -144px !important;
+}
+.at15t_delicious {
+    background-position: 0 -160px !important;
+}
+.at15t_digg {
+    background-position: 0 -176px !important;
+}
+.at15t_diigo {
+    background-position: 0 -192px !important;
+}
+.at15t_email {
+    background-position: 0 -208px !important;
+}
+.at15t_facebook {
+    background-position: 0 -224px !important;
+}
+.at15t_fark {
+    background-position: 0 -240px !important;
+}
+.at15t_faves {
+    background-position: 0 -256px !important;
+}
+.at15t_favorites {
+    background-position: 0 -272px !important;
+}
+.at15t_friendfeed {
+    background-position: 0 -288px !important;
+}
+.at15t_friendster {
+    background-position: 0 -304px !important;
+}
+.at15t_google {
+    background-position: 0 -320px !important;
+}
+.at15t_hatena {
+    background-position: 0 -336px !important;
+}
+.at15t_hi5 {
+    background-position: 0 -352px !important;
+}
+.at15t_kaboodle {
+    background-position: 0 -368px !important;
+}
+.at15t_kirtsy {
+    background-position: 0 -384px !important;
+}
+.at15t_linkagogo {
+    background-position: 0 -400px !important;
+}
+.at15t_linkedin {
+    background-position: 0 -416px !important;
+}
+.at15t_live {
+    background-position: 0 -432px !important;
+}
+.at15t_meneame {
+    background-position: 0 -448px !important;
+}
+.at15t_misterwong {
+    background-position: 0 -464px !important;
+}
+.at15t_mixx {
+    background-position: 0 -480px !important;
+}
+.at15t_multiply {
+    background-position: 0 -496px !important;
+}
+.at15t_myaol {
+    background-position: 0 -512px !important;
+}
+.at15t_myspace {
+    background-position: 0 -528px !important;
+}
+.at15t_netvibes {
+    background-position: 0 -544px !important;
+}
+.at15t_netvouz {
+    background-position: 0 -560px !important;
+}
+.at15t_newsvine {
+    background-position: 0 -576px !important;
+}
+.at15t_nujij {
+    background-position: 0 -592px !important;
+}
+.at15t_orkut {
+    background-position: 0 -608px !important;
+}
+.at15t_plaxo {
+    background-position: 0 -624px !important;
+}
+.at15t_print {
+    background-position: 0 -640px !important;
+}
+.at15t_propeller {
+    background-position: 0 -656px !important;
+}
+.at15t_reddit {
+    background-position: 0 -672px !important;
+}
+.at15t_segnalo {
+    background-position: 0 -688px !important;
+}
+.at15t_simpy {
+    background-position: 0 -704px !important;
+}
+.at15t_slashdot {
+    background-position: 0 -720px !important;
+}
+.at15t_spurl {
+    background-position: 0 -736px !important;
+}
+.at15t_stumbleupon {
+    background-position: 0 -752px !important;
+}
+.at15t_stylehive {
+    background-position: 0 -768px !important;
+}
+.at15t_tailrank {
+    background-position: 0 -784px !important;
+}
+.at15t_technorati {
+    background-position: 0 -800px !important;
+}
+.at15t_thisnext {
+    background-position: 0 -816px !important;
+}
+.at15t_tipd {
+    background-position: 0 -832px !important;
+}
+.at15t_tumblr {
+    background-position: 0 -848px !important;
+}
+.at15t_twitter {
+    background-position: 0 -864px !important;
+}
+.at15t_typepad {
+    background-position: 0 -880px !important;
+}
+.at15t_wordpress {
+    background-position: 0 -896px !important;
+}
+.at15t_yahoobkm {
+    background-position: 0 -912px !important;
+}
+.at15t_yardbarker {
+    background-position: 0 -928px !important;
+}
+.at15t_netscape {
+    background-position: 0 -656px !important;
+}
+#at16clb {
+    font-family: "verdana bold",verdana,arial,sans-serif;
+    font-size: 16pt;
+}
+#at_share .at_item {
+    border: 1px solid #FFFFFF;
+    margin-right: 2px;
+    padding: 4px;
+    width: 123px !important;
+}
+#at16pm {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+    height: 360px;
+    position: static;
+    text-align: left;
+    width: 298px;
+}
+#at16pcc {
+    color: #4C4C4C;
+    font-size: 10px !important;
+    left: 0;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+* html #at16pcc {
+    position: absolute;
+}
+#at16abifc {
+    border: 0 none;
+    height: 335px;
+    left: 10px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    width: 492px;
+}
+#at16abifc iframe {
+    border: 0 none;
+    height: 360px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 516px;
+}
+* html div#at16abifc.atiemode2 {
+    height: 354px;
+    width: 482px;
+}
+* html #at16abifc iframe {
+    height: 348px;
+    left: -10px;
+    overflow: hidden;
+    top: -10px;
+}
+#at16p {
+    background: url("http://illiweb.com/fa/addthis/atbkg.png") repeat scroll 0 0 transparent;
+}
+#at16p, #atie6ifh {
+    color: #5E5E5E;
+    font-family: arial,helvetica,tahoma,verdana,sans-serif;
+    font-size: 12px;
+    left: 50%;
+    margin: -185px auto 0 -155px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    width: 300px;
+    z-index: 999;
+}
+#atie6ifh {
+    height: 381px;
+    margin-left: -165px;
+    padding: 0;
+    width: 322px;
+}
+#at_share {
+    margin: 0;
+    padding: 0;
+}
+#at16ps {
+    height: 284px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+a#at16pit {
+    background: url("http://illiweb.com/fa/addthis/tab00.gif") no-repeat scroll 0 0 transparent;
+    color: #3366BB;
+    display: block;
+    height: 20px;
+    line-height: 19px;
+    margin-right: -17px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 37px;
+    width: 16px;
+}
+#at16pi {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #E5E5E5;
+    border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    text-align: left;
+}
+#at16pi a {
+    color: #3366BB;
+    text-decoration: none;
+}
+#at16pi a:hover {
+    text-decoration: underline;
+}
+#at16pt {
+    background: none repeat scroll 0 0 #F2F2F2;
+    height: 13px;
+    padding: 5px 10px;
+    position: relative;
+}
+#at16pt a, #at16pt h4 {
+    font-weight: 700;
+}
+#at16pt h4 {
+    color: #4C4C4C;
+    cursor: default;
+    display: inline;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+#at16pt a {
+    color: #4C4C4C;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    top: 5px;
+}
+#at16pc form {
+    margin: 0;
+}
+#at16pc form label {
+    display: block;
+    float: none;
+    font-size: 11px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    text-align: left;
+}
+#at16pc form label span {
+    color: #4C4C4C;
+    display: inline;
+    font-weight: 400;
+}
+#at_email form .abif {
+    width: 272px !important;
+}
+#at_email textarea {
+    height: 55px !important;
+    word-wrap: break-word;
+}
+* html #at_email textarea {
+    height: 42px !important;
+}
+:first-child + html #at_email textarea {
+    height: 42px !important;
+}
+#at_email form input, #at_email form textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BBBBBB;
+    color: #333333;
+    font-family: arial,helvetica,tahoma,verdana,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0 0 8px;
+    padding: 3px;
+    width: 272px;
+}
+#at_email form .atfxmode2 {
+    width: 279px;
+}
+#at16pc form .at_ent {
+    color: #333333 !important;
+}
+#at16pc form textarea {
+    height: 48px;
+}
+#at16pc form input:focus, #at16pc form textarea:focus {
+    background: none repeat scroll 0 0 #FFFFF0;
+    color: #333333;
+}
+#at16p .atbtn {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #B5B5B5;
+    color: #333333;
+    cursor: pointer;
+    font-size: 11px !important;
+    font-weight: 700;
+    margin: 0 2px !important;
+    padding: 2px 4px;
+    width: 60px;
+}
+#at16p .atbtn:hover {
+    border-color: #444444;
+    color: #0066CC;
+}
+#at_email #ateml {
+    color: #999999;
+    font-size: 10px;
+    text-align: right;
+}
+#at16pc {
+    color: #4C4C4C;
+    font-size: 11px;
+    height: 323px;
+    text-align: left;
+}
+#at_email {
+    padding: 5px 10px;
+}
+#at16pc .tmsg {
+    padding: 4px 2px;
+    text-align: right;
+}
+#at16psf {
+    background: url("http://illiweb.com/fa/addthis/atf02.png") no-repeat scroll center center #F2F2F2;
+    border-bottom: 1px solid #CCCCCC;
+    height: 20px;
+    padding: 4px 10px;
+    position: relative;
+    text-align: center;
+}
+* html #at16psf input {
+    padding: 0;
+}
+#at16psf input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    color: #666666;
+    font-family: arial,helvetica,tahoma,verdana,sans-serif;
+    font-size: 12px;
+    margin: 2px 0 0;
+    outline-style: none;
+    outline-width: 0;
+    padding: 2px 0 0;
+    width: 220px;
+}
+#at16pcc .at_error {
+    background: none repeat scroll 0 0 #F26D7D;
+    border-bottom: 1px solid #DF5666;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+#at16pcc #at_success {
+    background: none repeat scroll 0 0 #D0FBDA;
+    border-bottom: 1px solid #A8E7B7;
+    color: #4C4C4C;
+    padding: 5px 10px;
+}
+#at16pf {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-top: 1px solid #E5E5E5;
+    position: relative;
+}
+#at16pf a {
+    color: #4C4C4C;
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 10px;
+    margin: 0;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+}
+#at16pf a:hover {
+    text-decoration: underline;
+}
+#at16pf a#at-whatsthis {
+    left: 10px;
+    width: 60px;
+}
+#at16pf a#at-privacy {
+    left: 90px;
+    width: 39px;
+}
+#at_complete {
+    color: #47731D;
+    font-size: 13pt;
+    height: 208px !important;
+    padding-top: 130px;
+    text-align: center;
+    width: 472px;
+}
+#at_s_msg {
+    margin-bottom: 10px;
+}
+#at16pf a#at-logo {
+    background: url("http://illiweb.com/fa/addthis/logo88.gif") no-repeat scroll left center transparent;
+    padding-left: 10px;
+    right: 10px;
+}
+.at_baa {
+    display: block;
+    outline: medium none;
+    overflow: hidden;
+}
+#at15s #at16pf a {
+    top: 1px;
+}
+#at16pc form #at_send {
+    width: 80px !important;
+}
+#at_feed {
+    display: none;
+    height: 300px;
+    padding: 10px;
+}
+#at_feed span {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#at_feed div {
+    float: left !important;
+    height: 26px !important;
+    line-height: 26px !important;
+    margin-right: 68px;
+    width: 102px !important;
+}
+#at_feed div.at_litem {
+    margin-right: 0;
+}
+#at_feed a {
+    height: 17px;
+    line-height: 17px;
+    margin: 10px 0;
+}
+.fbtn {
+    background: url("http://illiweb.com/fa/addthis/feed00.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    text-indent: -9000px;
+    width: 102px;
+}
+.fbtn.bloglines {
+    background-position: 0 0;
+    height: 20px !important;
+    line-height: 20px !important;
+    margin-top: 8px !important;
+    width: 94px;
+}
+
+.fbtn.yahoo {
+    background-position: 0 -20px;
+}
+.fbtn.newsgator, .fbtn.newsgator-on {
+    background-position: 0 -37px;
+}
+.fbtn.technorati {
+    background-position: 0 -71px;
+}
+.fbtn.netvibes {
+    background-position: 0 -88px;
+}
+.fbtn.pageflakes {
+    background-position: 0 -141px;
+}
+.fbtn.feedreader {
+    background-position: 0 -172px;
+}
+.fbtn.newsisfree {
+    background-position: 0 -207px;
+}
+.fbtn.google {
+    background-position: 0 -54px;
+    width: 104px;
+}
+.fbtn.winlive {
+    background-position: 0 -105px;
+    height: 19px !important;
+    line-height: 19px;
+    margin-top: 9px !important;
+    width: 100px;
+}
+.fbtn.mymsn {
+    background-position: 0 -158px;
+    height: 14px !important;
+    line-height: 14px !important;
+    margin-top: 12px !important;
+    width: 71px;
+}
+.fbtn.aol {
+    background-position: 0 -189px;
+    height: 18px !important;
+    line-height: 18px !important;
+    width: 92px;
+}
+#at16pp {
+    color: #4C4C4C;
+    font-size: 11px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+#at16pp label {
+    font-size: 11px !important;
+}
+#at16ppc {
+    padding: 10px;
+    width: 179px;
+}
+#at16pph {
+    padding: 5px 0 10px;
+}
+#at16pph select {
+    margin: 5px 0 8px;
+}
+#at16pp .atinp {
+    width: 156px;
+}
+html > body #at16pp .atinp {
+    width: 176px;
+}
+#at16ppb {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 274px;
+}
+#at16ep {
+    height: 16px;
+    padding: 8px;
+}
+#at16ep a {
+    display: block;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    padding-left: 22px;
+}
+#at16ep a.at_gmail {
+    background: url("http://illiweb.com/fa/addthis/gmail.gif") no-repeat scroll left center transparent;
+}
+#at16ep a.at_hotmail {
+    background: url("http://illiweb.com/fa/addthis/hotmail.gif") no-repeat scroll left center transparent;
+}
+#at16ep a.at_yahoo {
+    background: url("http://illiweb.com/fa/addthis/yahoo.gif") no-repeat scroll left center transparent;
+}
+#at16ppf p#atsb {
+    font-size: 10px;
+    padding-top: 20px;
+}
+#at16abr {
+    margin-top: 10px;
+}
+#at16abr input {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+#at16ppso {
+    display: none;
+    margin-top: 2px;
+    text-align: right;
+}
+#at16ppa {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 228px;
+    overflow: auto;
+    width: 178px;
+}
+#at16ppa a {
+    display: block;
+    font-size: 12px !important;
+    padding: 4px 8px;
+    white-space: nowrap;
+}
+#at16eatdr {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 0 none;
+    left: 21px;
+    max-height: 110px;
+    overflow: auto;
+    position: absolute;
+    top: 129px;
+    width: 277px;
+    z-index: 500;
+}
+* html #at_email #at16eatdr {
+    top: 115px !important;
+    width: 272px !important;
+}
+:first-child + html #at_email #at16eatdr {
+    top: 115px !important;
+    width: 272px !important;
+}
+html > body #at_email form #at16eatdr.abif {
+    top: 137px;
+    width: 278px !important;
+}
+#at16eatdr a {
+    border-bottom: 1px dotted #EEEEEE;
+    display: block;
+    overflow: hidden;
+    padding: 4px 8px;
+}
+#at16eatdr a.hover, #at16eatdr a:hover {
+    background: none repeat scroll 0 0 #E0EEFA;
+    color: #333333;
+    text-decoration: none;
+}
+#at_promo {
+    display: none;
+    font-size: 12px;
+}
+#at_promo button {
+    background: none repeat scroll 0 0 #EE6A44;
+    border-color: #FFA389 #D4522C #D4522C #FFA389;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+}
+#at_promo .at-promo-content {
+    margin-top: 12px;
+}
+#at_promo .at-promo-btn {
+    padding-top: 10px;
+}
+#at_promo .at-promo-top {
+    background: url("http://illiweb.com/fa/addthis/60x60_atn_logo.jpg") no-repeat scroll 0 0 transparent;
+    padding: 10px 0 5px 70px;
+}
+#at_promo h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 4px;
+}
+#at_promo h4 sup {
+    color: #EE6A44;
+    font-size: 11px;
+}
+#at_promo span {
+    display: block;
+}
+#at_promo .at-promo-btm-ffx {
+    background: url("http://illiweb.com/fa/addthis/60x60_at_firefox_toolbar.jpg") no-repeat scroll 0 0 transparent;
+    padding: 6px 0 0 70px;
+}
+#at_promo .at-promo-btm-ie {
+    background: url("http://illiweb.com/fa/addthis/60x60_at_ie_toolbar.png") no-repeat scroll 0 0 transparent;
+    padding: 6px 0 0 70px;
+}
+#forum_rules table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    table-layout: fixed;
+    width: 100%;
+}
+#forum_rules .logo {
+    overflow: hidden;
+    vertical-align: top;
+    width: 100px;
+}
+#forum_rules .logo img {
+    max-width: 100px;
+}
+div div div.gen strong a {
+    font-weight: 400;
+}
+
+
+
+
+
+
+a:hover {
+    background: none repeat scroll 0 0 #FCFCFC;
+}
+td {
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+body, a:hover {
+    cursor: url("http://cur.cursors-4u.net/cursors/cur-9/cur817.cur"), progress !important;
+}
+
+a strong {
+    background: url("http://i44.servimg.com/u/f44/17/54/24/51/post_o10.gif") no-repeat scroll right center transparent;
+    padding: 0 15px 0 20px;
+}
+.row1 {
+    background-image: url("http://i47.servimg.com/u/f47/17/57/30/38/111.png");
+}
+.row2 {
+    background-image: url("http://i47.servimg.com/u/f47/17/57/30/38/111.png");
+}
+.row3 {
+    background-image: url("http://i47.servimg.com/u/f47/17/57/30/38/111.png");
+}
+.row4 {
+    background-image: url("http://i47.servimg.com/u/f47/17/57/30/38/111.png");
+}
+.fade {
+    background: -moz-linear-gradient(left center , #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0 0 transparent;
+    display: inline-block;
+}
+
+.blur {
+    color: #DDDDDD;
+    display: inline-block;
+    text-shadow: 0 0 6px #AAAAAA;
+}
+.flipH {
+    -moz-transform: scale(-1, 1);
+    display: inline-block;
+}
+.flipV {
+    -moz-transform: scale(1, -1);
+    display: inline-block;
+}
+/*-----essa_elgn -----*/
+.postdetails.poster-profile a img
+{
+filter:alpha(opacity=100);
+-moz-opacity: 1.0;
+essa_elgn;
+opacity: 1.0;
+  }
+.postdetails.poster-profile a img:hover
+{
+filter:alpha(opacity=70);
+-moz-opacity: 0.65;
+opacity: 0.65;
+  }
+
+/* ����� �������*/
+ .signature_div img{
+            max-width: 400px !important;
+            max-height: 100px !important;
+            }
+
