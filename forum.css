@@ -1908,7 +1908,7 @@ a#fa_magnifier:after { content:"\f002"; }
 /* service icon */
 
 a#fa_icon:after {
-  content:"\f132";
+  content:"\f086";
   font-size:20px;  
   line-height:30px;
 }
