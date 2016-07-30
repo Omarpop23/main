@@ -30,6 +30,7 @@
 /* -- 00. IMPORTS AND ANIMATIONS -- */
 @import url(https://fonts.googleapis.com/css?family=Roboto); /* Roboto Font Family */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css); /* Font Awesome Icons */
+@import url(http://ct1.addthis.com/static/r07/widget110.css); /* addthis */
 
 /* hot topic animation */
 @-webkit-keyframes hot-topic {
@@ -252,21 +253,6 @@ center : text-align:center;
 }
 
 #navbar .mainmenu:hover:after, #navbar .mainmenu.fa_navactif:after, #tabs a:hover:after, #tabs .activetab a:after { bottom:0px; }
-
-a[href="/contact"].mainmenu {
-    color: #ffff00 !important;
-    float: left;
-    display: inline-block;
-}
-a[href="/contact"].mainmenu:before {
-  content: "\f058";
-  font-family: FontAwesome;
-  padding-left: 5px;
-  vertical-align: -3px;
-  font-size: 18px;
-  display: inline-block;
-  line-height: 0px;
-  }
 
 /* sticky navbar panel */
 #fa_sticky_nav_button { top:69px; }
@@ -1529,9 +1515,6 @@ td.avatar-mini { width:250px }
 
 .sceditor-button-quote:after { content:"\f10d"; }
 .sceditor-button-code:after { content:"\f121"; }
-.sceditor-button-ann-code:after { content: "\f0a1"; }
-.sceditor-button-imp-code:after { content: "\f06a"; }
-.sceditor-button-tut-code:after { content: "\f0d0"; }
 .sceditor-button-faspoiler:after { content:"\f071"; }
 .sceditor-button-fahide:after { content:"\f070"; }
 .sceditor-button-table:after { content:"\f0ce"; }
