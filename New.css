@@ -404,3 +404,34 @@
     display: block;
     width: 100%
 }
+
+#topicreview {
+    height: 300px;
+    overflow: auto;
+    padding-right: 5px
+}
+#topicreview .postbody {
+    float: none;
+    height: auto;
+    margin: 0;
+    width: auto
+}
+#topicreview .post {
+    height: auto
+}
+#topicreview h2 {
+    border-bottom-width: 0
+}
+
+#cp-main .panel #topicreview span.corners-top {
+    background-image: url(http://illiweb.com/fa/empty.gif)
+}
+#cp-main .panel #topicreview span.corners-top span {
+    background-image: url(http://illiweb.com/fa/empty.gif)
+}
+#cp-main .panel #topicreview span.corners-bottom {
+    background-image: url(http://illiweb.com/fa/empty.gif)
+}
+#cp-main .panel #topicreview span.corners-bottom span {
+    background-image: url(http://illiweb.com/fa/empty.gif)
+}
