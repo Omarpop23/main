@@ -231,3 +231,58 @@
 .fkra td{background-image: url('http://i49.servimg.com/u/f49/16/89/40/74/uuoo10.png');border:1px solid;background-color:#ffface;background-position: right center;background-repeat: no-repeat;border: 1px solid;border-radius: .3em;border-color: #e4c259;padding: 10px 40px 10px 10px;line-height: 20px;}
 .help td{background-image: url('http://i49.servimg.com/u/f49/16/89/40/74/uooooo10.png');border:1px solid;background-color:#d3e6ef;background-position: right center;background-repeat: no-repeat;border: 1px solid;border-radius: .3em;border-color: #93c;padding: 10px 40px 10px 10px;line-height: 20px;}
 .mail td{background: url('http://i12.servimg.com/u/f12/17/24/11/70/gifts-10.png') right;border:1px solid;background-color: rgb(242, 234, 207);background-position: right center;background-repeat: no-repeat;border: 1px solid;border-radius: .3em;border-color: #e4c259;padding: 10px 40px 10px 10px;line-height: 20px;}
+
+.post-button a {
+    -webkit-transition: 300ms;
+    background-color: #39C;
+    border: 1px solid #39C;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    font-weight: 700;
+    padding: 6px 12px;
+    text-decoration: none;
+    transition: 300ms
+}
+.post-button.red a {
+    background-color: #E53;
+    border-color: #E53
+}
+.post-button.green a {
+    background-color: #8C5;
+    border-color: #8C5
+}
+.post-button.yellow a {
+    background-color: #EB3;
+    border-color: #EB3
+}
+.post-button a:hover {
+    background-color: #28B
+}
+.post-button.red a:hover {
+    background-color: #D42
+}
+.post-button.green a:hover {
+    background-color: #7B4
+}
+.post-button.yellow a:hover {
+    background-color: #DA2
+}
+.post-button a:active,
+.post-button a:focus {
+    background-color: #333!important;
+    border-color: #222!important
+}
+.post-button i {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-rendering: auto;
+    transform: translate(0, 0)
+}
