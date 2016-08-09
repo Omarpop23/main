@@ -286,3 +286,121 @@
     text-rendering: auto;
     transform: translate(0, 0)
 }
+
+.modAlert {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-left-width: 5px;
+    border-radius: 3px;
+    border-spacing: 0;
+    margin: 6px auto;
+    width: 90%
+}
+.modAlertEdit,
+.modAlertEdit1,
+.modAlertEdit9 {
+    border-left-color: #EABB3D
+}
+.modAlertEdit11,
+.modAlertEdit2,
+.modAlertEdit7 {
+    border-left-color: #84C754
+}
+.modAlertEdit13,
+.modAlertEdit3,
+.modAlertEdit5 {
+    border-left-color: #E7553D
+}
+.modAlertEdit10,
+.modAlertEdit12,
+.modAlertEdit4 {
+    border-left-color: #39c
+}
+.modAlertEdit6,
+.modAlertEdit8 {
+    border-left-color: #2D3134
+}
+.modAlertImage,
+.modAlertImage1,
+.modAlertImage10,
+.modAlertImage11,
+.modAlertImage12,
+.modAlertImage13,
+.modAlertImage2,
+.modAlertImage3,
+.modAlertImage4,
+.modAlertImage5,
+.modAlertImage6,
+.modAlertImage7,
+.modAlertImage8,
+.modAlertImage9 {
+    border-right: 1px solid #CCC;
+    text-align: center;
+    width: 70px
+}
+.modAlertImage {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/change10.png) no-repeat center
+}
+.modAlertImage1 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/double12.png) no-repeat center
+}
+.modAlertImage2 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/topic_15.png) no-repeat center
+}
+.modAlertImage3 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/declin11.png) no-repeat center
+}
+.modAlertImage4 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/langua10.png) no-repeat center
+}
+.modAlertImage5 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/bump10.png) no-repeat center
+}
+.modAlertImage6 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/garbag10.png) no-repeat center
+}
+.modAlertImage7 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/layout10.png) no-repeat center
+}
+.modAlertImage8 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/no_rep10.png) no-repeat center
+}
+.modAlertImage9 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/provid10.png) no-repeat center
+}
+.modAlertImage10 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/reques10.png) no-repeat center
+}
+.modAlertImage11 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/thanks16.png) no-repeat center
+}
+.modAlertImage12 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/tagged10.png) no-repeat center
+}
+.modAlertImage13 {
+    background: url(http://i18.servimg.com/u/f18/16/89/96/68/admin_10.png) no-repeat center
+}
+.modAlertText {
+    padding: 3px;
+    text-align: center
+}
+.modAlertExtra {
+    border-spacing: 0;
+    border-top: 1px solid #CCC;
+    color: #666;
+    display: block;
+    font-family: "Trebuchet MS", Arial, Verdana, Sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 3px -3px 0;
+    padding: 3px 3px 0;
+    text-align: center;
+    width: 100%
+}
+.modAlertExtra tbody,
+.modAlertExtra td,
+.modAlertExtra tr {
+    display: block;
+    width: 100%
+}
