@@ -87,7 +87,6 @@ body #fa_menulist, body #fa_toolbar #fa_right #notif_list {
   border:1px solid #CCC;
   box-shadow:0 6px 12px rgba(0, 0, 0, 0.176);
 }
-body #fa_toolbar #fa_right #notif_list { margin-top:50px; }
 
 /* dropdown arrow */
 #fa_menulist:after, #fa_menulist:before, #notif_list:after, #notif_list:before {
@@ -117,7 +116,7 @@ span.new-message:before {
   font-family:FontAwesome;
   font-weight:normal;
   font-size:14px;
-  margin-left:4px;
+  margin-right:4px;
 }
 
 body #notif_unread, span.new-message {
@@ -141,39 +140,3 @@ body #fa_toolbar #fa_right #notif_list li a.delete {
 }
 
 #fa_toolbar a.delete:hover:after { color:#E53; }
-
-
-/* -- 21. BREADCRUMBS -- */
-.breadcrumbs {
-  color:#FFF;
-  font-size:0;
-  background:#69C;
-  display:inline-block;
-  padding:6px 12px;
-  margin:3px 0;
-}
-
-.breadcrumbs a {
-  display:inline-block;
-  color:#FFF !important;
-  font-size:12px;
-  white-space:nowrap;
-}
-
-.breadcrumbs a:after {
-  content:"\f104";
-  font-size:18px;
-  font-family:FontAwesome;
-  vertical-align:-2px;
-  margin:0 6px;
-}
-
-.breadcrumbs a:last-child:after, .breadcrumbs a:empty:after { display:none; }
-
-.breadcrumbs a:first-child:before {
-  content:"\f015";
-  font-size:16px;
-  font-family:FontAwesome;
-  vertical-align:-1px;
-  margin-left:3px;
-}
