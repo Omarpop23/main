@@ -6,5 +6,5 @@
 }
 
 .whiteBlock .bubble, .thanked-post .thanked-message, .module .h3, #recent_topic_list::-webkit-scrollbar-thumb, .module_column_title, #cp-main h1:not(.title), th #content > h1.page-title, #tabs, #content > h1.page-title, #postingbox .title, form .title, .post .title, body #fa_toolbar #fa_right #notif_list li.see_all, #fa_toolbar, .blueBlock, a.button, #header-links > a:hover, #header-links noscript a:hover, .pagination span strong, .pagination span > a:hover, .member-number, div#postHeader, .codebox dt, blockquote cite, .attachbox > dt, #tStatus[title="ãÓÇåãÇÊ ÌÏíÏÉ"], #tStatus[style="background-image: url(https://illiweb.com/fa/empty.gif?new-forum);"],.post-btn a:hover, #thankedBtn, .fa_pseudo_radio:after, .widget_menu.column_button_left {
-    background-color: #69c;
+    background-color: #69C !important;
 }
