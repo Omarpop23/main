@@ -1,4 +1,4 @@
-.tuto-content + br,
+ï»¿.tuto-content + br,
 .tuto-footer + br,
 .tuto-header + br {
     display: none
@@ -44,17 +44,17 @@
     line-height: 1;
     text-rendering: auto
 }
-.ÇÚáÇä .tuto-logo:after {
+.Ø§Ø¹Ù„Ø§Ù† .tuto-logo:after {
     content: "\f0a1"
 }
-.ÔÑÍ .tuto-logo:after {
+.Ø´Ø±Ø­ .tuto-logo:after {
     content: "\f0d0"
 }
-.ŞæÇäíä .tuto-logo:after {
+.Ù‚ÙˆØ§Ù†ÙŠÙ† .tuto-logo:after {
     content: "\f071"
 }
 
-.ÊÕãíã .tuto-logo:after {
+.ØªØµÙ…ÙŠÙ… .tuto-logo:after {
     content: "\f1fc"
 }
 .tuto-type:after {
@@ -71,20 +71,20 @@
     top: -3px
 }
 
-.ÇÚáÇä .tuto-type:after {
-    content: "ÇÚÜÜÜÜÜÜÜÜáÇä"
+.Ø§Ø¹Ù„Ø§Ù† .tuto-type:after {
+    content: "Ø§Ø¹Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù„Ø§Ù†"
 }
-.ÔÑÍ .tuto-type:after {
+.Ø´Ø±Ø­ .tuto-type:after {
     color: #8B5;
-    content: "ÔÜÜÜÜÜÜÜÜÑÍ"
+    content: "Ø´Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ø±Ø­"
 }
-.ŞæÇäíä .tuto-type:after {
+.Ù‚ÙˆØ§Ù†ÙŠÙ† .tuto-type:after {
     color: #787dea;
-    content: "åÜÜÜÜÜÜÜÜÇã"
+    content: "Ù‡Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ø§Ù…"
 }
-.ÊÕãíã .tuto-type:after {
+.ØªØµÙ…ÙŠÙ… .tuto-type:after {
     color: #e06b59;
-    content: "ÊÕÜÜÜÜÜÜÜÜãíã"
+    content: "ØªØµÙ€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù…ÙŠÙ…"
 }
 
 .tuto-content {
@@ -116,11 +116,11 @@
 }
 .tuto-brand:before {
     color: #69C;
-    content: "ÇÍáì"
+    content: "Ø§Ø­Ù„Ù‰"
 }
 .tuto-brand:after {
     color: #333;
-    content: "ãØæÑ "
+    content: "Ù…Ø·ÙˆØ± "
 }
 .tuto-credit:after {
     -moz-osx-font-smoothing: grayscale;
@@ -161,38 +161,38 @@ table.list-in-tutos td {
     color: #fff;
     width: 100%
 }
-.tuto-header.ÔÑÍ {
+.tuto-header.Ø´Ø±Ø­ {
     background-color: #8B5;
     border-color: #8B5
 }
-.ÔÑÍ + .tuto-content,
-.ÔÑÍ + .tuto-content + .tuto-footer,
-.ÔÑÍ + br + .tuto-content,
-.ÔÑÍ + br + .tuto-content + br + .tuto-footer {
+.Ø´Ø±Ø­ + .tuto-content,
+.Ø´Ø±Ø­ + .tuto-content + .tuto-footer,
+.Ø´Ø±Ø­ + br + .tuto-content,
+.Ø´Ø±Ø­ + br + .tuto-content + br + .tuto-footer {
     border-color: #8B5
 }
-.tuto-header.ŞæÇäíä {
+.tuto-header.Ù‚ÙˆØ§Ù†ÙŠÙ† {
     background-color: #787dea;
     border-color: #787dea
 }
-.ŞæÇäíä + .tuto-content,
-.ŞæÇäíä + .tuto-content + .tuto-footer,
-.ŞæÇäíä + br + .tuto-content,
-.ŞæÇäíä + br + .tuto-content + br + .tuto-footer {
+.Ù‚ÙˆØ§Ù†ÙŠÙ† + .tuto-content,
+.Ù‚ÙˆØ§Ù†ÙŠÙ† + .tuto-content + .tuto-footer,
+.Ù‚ÙˆØ§Ù†ÙŠÙ† + br + .tuto-content,
+.Ù‚ÙˆØ§Ù†ÙŠÙ† + br + .tuto-content + br + .tuto-footer {
     border-color: #787dea
 }
 .sticker-points img,
 .tuto-content table[style="width:100%;"] td[style="width:50%;text-align:center;"] img {
     vertical-align: middle
 }
-.tuto-header.ÊÕãíã {
+.tuto-header.ØªØµÙ…ÙŠÙ… {
     background-color: #e06b59;
     border-color: #e06b59
 }
-.ÊÕãíã + .tuto-content,
-.ÊÕãíã + .tuto-content + .tuto-footer,
-.ÊÕãíã + br + .tuto-content,
-.ÊÕãíã + br + .tuto-content + br + .tuto-footer {
+.ØªØµÙ…ÙŠÙ… + .tuto-content,
+.ØªØµÙ…ÙŠÙ… + .tuto-content + .tuto-footer,
+.ØªØµÙ…ÙŠÙ… + br + .tuto-content,
+.ØªØµÙ…ÙŠÙ… + br + .tuto-content + br + .tuto-footer {
     border-color: #e06b59
 }
 #fa_notice {
