@@ -475,21 +475,18 @@ $(function() {
     if ($.cookie("omarpop") != null) {
         $('html').attr('style', '--site-color: ' + $.cookie("omarpop") + '')
     }
-    var color = $('#colors-menu ul li');
-    color.eq(0).css("background-color", "#1da1f2");
-    color.eq(1).css("background-color", "#c6c");
-    color.eq(2).css("background-color", "#808080");
-    color.eq(3).css("background-color", "#c66");
-    color.eq(4).css("background-color", "#00b3b3");
-    color.eq(5).css("background-color", "#ff99bb");
-    color.eq(6).css("background-color", "#6c6");
+
+	$('#colors-menu ul li').each(function () {
+		$(this).css("background-color", $(this).attr('data-value'));
+	})
+});
     $('#colors-menu ul li').click(function() {
         $('html').attr('style', '--site-color: ' + $(this).attr('data-value') + '');
         $.cookie("omarpop", $(this).attr('data-value'), {
             expires: 100
         })
     })
-});
+
 $(function() {
     if ($.cookie("view-style") != null) {
         $('body').attr('class', $.cookie("view-style"))
