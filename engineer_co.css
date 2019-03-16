@@ -219,13 +219,7 @@ a#header-notif:hover,
     left: 15px;
     top: 4px;
 }
-#logo {
-    display: block;
-    text-align: center;
-    color: #FFF;
-    margin-top: 25px;
-    position: relative;
-}
+#logo { display: inline-block; text-align: center; color: #FFF; position: relative; }
 #logo-link {
     display: inline-block;
 }
