@@ -3200,7 +3200,7 @@ body .sceditor-dropdown > p {
 }
 @media (min-width: 1200px) {}
 @media (min-width: 992px) and (max-width: 1199.98px) {}
-@media (min-width: 768px) and (max-width: 991.98px) {}
+
 @media (min-width: 576px) and (max-width: 767.98px) {}
 @media (max-width: 760px) {
     #main-menu-btn {
@@ -3245,7 +3245,18 @@ section.bgheader {background: url(https://i.servimg.com/u/f52/18/96/11/36/398529
 .forumDetails { text-align: justify; }
 .theImg img { max-height: 256px !important; padding: 10px 0; vertical-align: middle;}
 .forum.aboutUs .forum-btn { color: #39c !important; background: #FFF; border-radius: 5px; padding: 5px; display: inline-block; }
+#main-menu-btn { color: var(--site-color); border: 1px solid; }
+.forum-description { margin: 0 -30px !important; }
 
+
+@media (max-width: 767px) {
+  .forumImg { filter: brightness(1.1); background: var(--site-color); -webkit-clip-path: unset; clip-path: unset; } 
+  .theImg { max-width: 100%; }
+}
+@media (max-width: 425px) {
+  #logo h1 { font-size: 13px; }
+  
+}
 
 
 /*  Others  */
@@ -3281,10 +3292,12 @@ hr { border: none; border-top: 1px dashed #ccc; margin: 5px 10px; }
 .sub-f-w i { font-size: initial; }
 .sub-f-w { padding: 5px; height: 30px; border-radius: 0 0 5px 5px; }
 .servicesBlock p { text-align: justify; }
-.services .row { justify-content: center; align-items: baseline; }
+.services .row { justify-content: center; }
 .servicesBlock { padding: 15px !important; text-align: justify; }
 .servicesBlock p { margin-bottom: 30px; }
 a.servicesBtn { background: var(--site-color); color: #FFF; padding: 5px 15px; display: inline-block; border-radius: 3px; }
+.whyUs { background: #EEE; }
+.theImgs { color: #39c !important; font-size: 14px; }
 
 
 .yimgy { background: #ECEFF5 url(https://i.servimg.com/u/f62/11/12/91/34/imgy10.png) no-repeat center center; width: 220px; height: 160px; margin: 0px; }
@@ -3417,9 +3430,6 @@ div#fa_ticker_block .inner { padding: 5px; background: var(--site-color); color:
 .block .block-content .clear { display: none; }
 
 
-.swiper-slide {
-    color: #FFF;
-}
 .slid-desc { font-size: 18px; text-shadow: 1px 1px 1px #000; margin-top: 150px; border: 1px solid; border-radius: 50px; padding: 5px 18px; display: inline-block;  max-width: 90%; }
 
 a.slid_btn { color: #FFF; border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 50px; padding: 8px 16px; display: inline-block; margin-top: 30px; background: rgba(0, 0, 0, 0.25);font-size: 18px; }
