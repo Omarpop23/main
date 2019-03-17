@@ -292,7 +292,7 @@ a.normal-btn:hover {
     position: fixed;
     text-align: right;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
 }
 #main-user-menu a,
 #notif-menu a {
@@ -300,7 +300,9 @@ a.normal-btn:hover {
 }
 #main-menu {
     right: 0;
+    z-index: 9999;
 }
+
 .main-menu-headline {
     color: #FFF;
     font-size: 16px;
@@ -323,7 +325,6 @@ a.normal-btn:hover {
 #main-user-menu ul a {
     color: #fff;
     display: block;
-    max-width: 300px;
     text-decoration: none;
     padding: 8px 16px;
 }
@@ -1209,7 +1210,7 @@ p.description > br,
 #main-menu,
 #notif-menu,
 .post-author-contact-inline.center {
-    filter: opacity(90%) brightness(90%)
+    z-index: 9999 !important;
 }
 #main-user-menu,
 header.is-sticky {
@@ -3253,7 +3254,9 @@ section.bgheader {background: url(https://i.servimg.com/u/f52/18/96/11/36/398529
 .forum.aboutUs .forum-btn { color: #39c !important; background: #FFF; border-radius: 5px; padding: 5px; display: inline-block; }
 #main-menu-btn { color: var(--site-color); border: 1px solid; }
 .forum-description { margin: 0 -30px !important; }
-
+.homepage-btns.middle li {
+    display: inline-block;
+}
 
 @media (max-width: 767px) {
   .forumImg { filter: brightness(1.1); background: var(--site-color); -webkit-clip-path: unset; clip-path: unset; } 
