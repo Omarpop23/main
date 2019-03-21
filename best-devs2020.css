@@ -135,8 +135,8 @@ header > a {
 }
 a#header-notif,
 #main-menu-btn {
-    color: #FFF;
-    border: 1px solid #FFF;
+    color: var(--site-color);;
+    border: 1px solid ;
     cursor: pointer;
     border-radius: 15px;
     height: 30px;
@@ -171,12 +171,13 @@ header.is-sticky {
 a#header-notif:hover,
 #header-user img:hover {
     background: var(--site-color);
+    color: #FFF;
     border-color: var(--site-color);
 }
 #header-user img {
     width: 30px;
     height: 30px;
-    border: 1px solid #FFF;
+    border: 1px solid var(--site-color);
     border-radius: 50%;
     vertical-align: middle;
     padding: 3px;
@@ -1928,7 +1929,7 @@ body .sceditor-container textarea {
 }
 .sceditor-button.hover:after,
 .sceditor-button:hover:after,
-.sceditor-button:hover:before {
+.sceditor-button:hover:before, .sceditor-button.active:after {
     color: #FFF;
     background: var(--site-color);
 }
@@ -3212,7 +3213,7 @@ body .sceditor-dropdown > p {
     #main-menu-btn {
         display: inline-block;
     }
-    .homepage-btns {
+    .homepage-btns, #logo h1 {
         display: none;
     }
 }
@@ -3240,7 +3241,8 @@ body, html { color: #3a3a3a; }
 
 
 /*  Header  */
-header { position: sticky; background: #FFF; box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.2); top: 0; z-index: 9999; }
+header { position: fixed; background: #FFF; box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.2); width:100%; top: 0; z-index: 9999; }
+
 section.bgheader {background: url(https://i.servimg.com/u/f52/18/96/11/36/39852910.jpg); background-size: cover; }
 #logo img { max-width: 250px; max-height: 250px; }	#logo img { width: unset; height: unset; border-radius: 30px; }
 #logo h1 { font-size: 16px; margin: 0 7.5px; }
@@ -3541,7 +3543,7 @@ a.slid_btn { color: #FFF; border: 1px solid rgba(255, 255, 255, 0.25); border-ra
     background: #FFF;
     width: 190px;
 }
-
+ 
 #chatbox_header { display: flex; flex-wrap: wrap; align-items: center; }
 #chatbox_header a { color: #FFF; }
 h2.chatbox-title { flex-grow: 10; text-align: right; }
@@ -3570,3 +3572,55 @@ span.user-msg { display: flex; flex-flow: row wrap; }
  
 form[action="/contact?action=submit"]  input  { display: block;}
 
+
+.content {text-align: unset !important;}
+
+.content ul li , .content ol li {list-style-type: circle !important; margin: 5px 15px;}
+
+.callUsBlock .closeThis {
+    position: absolute;
+    right: 13px;
+    font-weight: bold;
+    color: #FF0;
+    cursor: pointer;
+}
+.callUsBlock {
+    background: #fff;
+    color: var(--site-color);
+    width: 320px;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: fixed;
+    top: 90px;
+    right: calc(50% - 160px);
+    opacity: .9;
+    box-shadow: 0 1px 3px rgba(0,0,0,.11), 0 0 1px rgba(0,0,0,.22);
+    transition: 400ms;
+    z-index: 999;
+    transform: translateY(calc(-100% - 120px));
+}
+
+.callUsBlock.hidden {
+    transform: translateY(calc(-100% - 120px));
+}
+
+
+.callUsBlock.visible {
+    transform: unset;
+}
+
+.callUsBlock .closeThis {
+    position: absolute;
+    right: -7.5px;
+    top: -7.5px;
+    width: 15px;
+    line-height: 15px;
+    height: 15px;
+    font-weight: bold;
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
